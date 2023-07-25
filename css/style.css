@@ -983,3 +983,31 @@ footer span {
     width: fit-content;
   }
 }
+
+/* Add this animation keyframes to your existing CSS */
+/* Add this animation keyframes to your existing CSS */
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(0deg);
+  }
+  60% {
+    transform: rotate(15deg);
+  }
+  80% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
+/* Add this style to the .wave-emoji class */
+.wave-emoji {
+  animation: wave 4s infinite;
+  display: inline-block;
+}
